@@ -1,0 +1,30 @@
+.pagination-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px;
+    >ul{
+        width: auto !important;
+        display: flex;
+        >li{
+            display: inline-flex;
+            margin-right: 5px;
+            &:last-child{
+                margin-right: 0px;
+            }
+            a{
+                height        : 40px;
+                padding       : 0px 10px;
+                display       : flex;
+                align-items   : center;
+                border        : 1px solid #ccc;
+                border-radius : 4px;
+                &.active{
+                    color               : #fff;
+                    background          : #1890ff;
+                    border-bottom-color : #1890ff;
+                }
+            }
+        }
+    }
+}

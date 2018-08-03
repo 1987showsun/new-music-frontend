@@ -1,0 +1,100 @@
+{
+    "incs" : [
+        {
+            "title"     : "Name",
+            "dataIndex" : "name",
+            "columnKey" : "name",
+            "link"      : true,
+            "path"      : "/info/incs",
+            "sort"      : true
+        }, 
+        {
+            "title"     : "Action",
+            "dataIndex" : "action",
+            "columnKey" : "action",
+            "action"    : [
+                {
+                    "key"   : "edit",
+                    "text"  : "修改",
+                    "icon"  : "",
+                    "style" : {
+                        
+                    }
+                },
+                {
+                    "key"   : "delete",
+                    "text"  : "刪除",
+                    "icon"  : ""
+                },
+                {
+                    "key"   : "more",
+                    "text"  : "更多",
+                    "icon"  : "",
+                    "path"  : ""
+                }
+            ]
+        }
+    ],
+    "teams" : [
+        {
+            "title"     : "Cover",
+            "dataIndex" : "cover",
+            "columnKey" : "cover",
+            "link"      : true,
+            "path"      : "/info/teams"
+        },
+        {
+            "title"     : "Content",
+            "dataIndex" : "content",
+            "columnKey" : "",
+            "children"  : ["name","name_en"],
+            "link"      : true,
+            "path"      : "/info/teams"
+        }
+    ],
+    "albums" : [
+        {
+            "title"     : "Cover",
+            "dataIndex" : "cover",
+            "columnKey" : "cover",
+            "link"      : true,
+            "path"      : "/info/albums"
+        },
+        {
+            "title"     : "Content",
+            "dataIndex" : "content",
+            "columnKey" : "",
+            "children"  : ["name","name_en"],
+            "link"      : true,
+            "path"      : "/info/albums"
+        }
+    ],
+    "albumsInfo" : [
+        {
+            "title"     : "曲名",
+            "dataIndex" : "name",
+            "columnKey" : "name",
+            "link"      : false
+        },
+        {
+            "title"     : "時間",
+            "dataIndex" : "song_time",
+            "columnKey" : "song_time",
+            "link"      : false
+        },
+        {
+            "title"     : "人氣",
+            "dataIndex" : "conut",
+            "columnKey" : "conut",
+            "link"      : false
+        },
+        {
+            "title"     : "Content",
+            "dataIndex" : "content",
+            "columnKey" : "",
+            "children"  : ["name","name_en"],
+            "link"      : true,
+            "path"      : "/info/albums"
+        }
+    ]
+}
